@@ -1,0 +1,4 @@
+scrape/
+*.pyc
+__pycache__
+*.log
