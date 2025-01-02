@@ -1,0 +1,9 @@
+2024-11-25 13:14:58,131 - ERROR - Error during sentiment analysis: [Errno 13] Permission denied: 'labeled_news_data.xlsx'
+2024-11-25 13:16:15,214 - INFO - Sentiment analysis complete. Data saved to labeled_news_data.xlsx
+2024-11-25 13:57:55,954 - INFO - Sentiment analysis complete. Data saved to labeled_news_data.xlsx
+2024-11-25 14:21:23,285 - ERROR - Error during sentiment analysis or data storage: [Errno 13] Permission denied: 'labeled_news_data.xlsx'
+2024-11-26 10:26:11,303 - INFO - Sentiment analysis complete. Data inserted into table public.labeled_news_data.
+2024-11-26 10:32:14,783 - INFO - Sentiment analysis complete. Data inserted into table labeled_news_data.
+2024-11-26 10:43:26,783 - INFO - Sentiment analysis complete. Data inserted into table labeled_news_data.
+2024-11-26 10:59:08,884 - INFO - Sentiment analysis complete. Data inserted into table labeled_news_data.
+2024-12-11 14:33:36,632 - INFO - Sentiment analysis complete. Data inserted into table labeled_news_data.
