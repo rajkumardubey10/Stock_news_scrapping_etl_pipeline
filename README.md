@@ -3,6 +3,14 @@
 ## Project Overview :
 Developed an end-to-end ETL pipeline for a small financial trading firm to automate the scraping of stock news articles from multiple websites. The solution initially scraped 300,000+ articles from ~9,000 pages to establish a comprehensive historical dataset. Using Apache Airflow, the pipeline schedules scraping tasks every 2 hours to fetch the latest news, ensuring up-to-date insights. Data is stored in an on-premise PostgreSQL database with robust deduplication logic to prevent duplicate entries. The entire pipeline is containerized with Docker, enabling seamless deployment and scalability, delivering accurate, timely data to support informed trading decisions.
 
+![Python 3.10](https://img.shields.io/badge/Python-3.10-yellow.svg)
+![Asyncio](https://img.shields.io/badge/Asyncio-Async%20Programming-red.svg)
+![Multithreading](https://img.shields.io/badge/Multithreading-Concurrency-green.svg)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-Task%20Orchestration-blue.svg)
+![Docker](https://img.shields.io/badge/Docker-Containerization-brightblue.svg)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-Web%20Scraping-yellowgreen.svg)
+
+
 ### Key Metrics :
 - Initial ingestion of **300,000+** articles from **10,000+** pages.
 - Automated daily scraping of **1,000+** articles.
