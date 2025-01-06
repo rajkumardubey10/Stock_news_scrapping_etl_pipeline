@@ -10,6 +10,7 @@ Developed an end-to-end ETL pipeline for a small financial trading firm to autom
 - Reduced response times by **10x** with optimized proxy rotation.
 
 ## Architecture Diagram:
+![stock_news_etl_pipeline_(containerized)](https://github.com/user-attachments/assets/91d457f0-549b-4ad5-9197-adab6245b524)
 
 ## Tech Stack :
 
