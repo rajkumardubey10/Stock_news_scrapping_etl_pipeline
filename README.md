@@ -31,3 +31,7 @@ Developed an end-to-end ETL pipeline for a small financial trading firm to autom
 | **Libraries**     | BeautifulSoup, psycopg2, logging |
 | **Tools**         | IP Proxy Rotation              |
 
+## Screenshots :
+![docker_shot](https://github.com/user-attachments/assets/5dab9458-e52d-4ab1-85a6-5ba10f80a4e0)
+![investing_log_shot](https://github.com/user-attachments/assets/8263a2de-7064-4c96-90a0-cadbec52f3bc)
+![money_log_shot](https://github.com/user-attachments/assets/7d77879f-d510-4e64-81eb-80c2427e29fb)
