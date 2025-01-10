@@ -154,7 +154,8 @@ def insert_data_to_db(data):
         connection.rollback()
     finally:
         close_db_connection(connection, cursor)
-
+    
+    print(f"Data insertion completed. {inserted_count} new records inserted, {skipped_count} records skipped due to conflict. Total time: {elapsed_time:.2f} seconds.")
 # Main function to run scraping and database insertion
 async def investing_main():
     scraped_data = await scrape_news()
@@ -162,7 +163,7 @@ async def investing_main():
         logging.info(f"Scraped {len(scraped_data)} articles.")
         # Insert the scraped data into the database after scraping is complete
         insert_data_to_db(scraped_data)
-
+    print(f"Scraped {len(scraped_data)} articles.")
 # Run the main function
 if __name__ == "__main__":
     asyncio.run(investing_main())
